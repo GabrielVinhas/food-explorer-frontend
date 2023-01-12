@@ -31,7 +31,7 @@ export function SignIn() {
           type="email" 
           label="email" 
           title="Email" 
-          placeholder="Exemplo: exemplo@exemplo.com"
+          placeholder="seuemail@email.com"
           onChange={e => setEmail(e.target.value)}
           required
         />
@@ -40,7 +40,6 @@ export function SignIn() {
           type="password" 
           label="password" 
           title="Senha" 
-          placeholder="No mínimo 6 caracteres"
           onChange={e => setPassword(e.target.value)}
           minLength="6"
           required 
