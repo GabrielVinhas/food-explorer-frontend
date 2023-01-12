@@ -131,7 +131,7 @@ $ cd food-explorer-frontend
 $ npm install
 # Execute a Aplicação
 $ npm run dev
-# A aplicação iniciará na porta: 3333 - vá para: http://localhost:3333
+
 ```
 ---
 
