@@ -30,7 +30,7 @@ export function SignIn() {
         <Input 
           type="email" 
           label="email" 
-          title="Email" 
+          title="E-mail" 
           placeholder="seuemail@email.com"
           onChange={e => setEmail(e.target.value)}
           required
