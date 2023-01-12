@@ -58,6 +58,7 @@ export function SignUp() {
           type="text" 
           label="name" 
           title="Seu nome"
+          placeholder="Exemplo: João Almeida"
           onChange={e => setName(e.target.value)}
           required  
         />
@@ -66,7 +67,7 @@ export function SignUp() {
           type="email" 
           label="email" 
           title="E-mail"
-          placeholder="seuemail@email.com"
+          placeholder="Exemplo: seuemail@email.com"
           onChange={e => setEmail(e.target.value)}
           required
         />
