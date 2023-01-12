@@ -109,14 +109,10 @@ Clone o projeto, acesse a pasta e inicie o servidor.
 
 ```bash
 # Clone esse repositório
-$ git clone git@github.com:gabrielvinhas/food-explorer-frontend.git
-
-$ cd food-explorer-backend
-
+$ git clone https://github.com/GabrielVinhas/food-explorer-api.git
+$ cd food-explorer-api
 $ npm install
 $ npm run dev
-
-# O server iniciará na porta: 3333 - vá para: http://localhost:3333
 ```
 ---
   
@@ -124,12 +120,9 @@ $ npm run dev
 
 ```bash
 # Clone esse repositório
-$ git clone git@github.com:exodogurgel/food-explorer-frontend.git
-# Accesse a pasta no seu terminal
+$ git clone https://github.com/GabrielVinhas/food-explorer-frontend.git
 $ cd food-explorer-frontend
-# Instale as dependêwncias
 $ npm install
-# Execute a Aplicação
 $ npm run dev
 
 ```
