@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: 'https://fe-api.vercel.app/'
+  baseURL: 'https://foodexplorer-api-8rnr.onrender.com'
 });
